@@ -34,6 +34,7 @@ Goal: Predict next-hour average utilization
 - Time-of-day, weekend flag
 - Temperature, Wind, Clouds, Rain
 - Utilization patterns with window shifts
+  
 📌 Output Target
 - Bike utilization +1 hour later
 
