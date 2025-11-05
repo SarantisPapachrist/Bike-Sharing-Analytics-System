@@ -39,7 +39,7 @@ Goal: Predict next-hour average utilization
 
 🗂️ Project Structure
 
-![Project Structure](diagrams/project_structure.png)
+![Project Structure](diagrams/project_structure1.png)
 
 ▶️ How to Run
 1. Start Kafka (two terminals)
