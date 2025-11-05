@@ -18,7 +18,7 @@ An end-to-end real-time data pipeline that collects Dubai’s public bike sharin
 
 🧩 Pipeline Architecture
 
-![Architecture Diagram](diagrams/architecture.png)
+![Architecture Diagram](diagrams/project_diagramm.png)
 
 📡 Streaming Analytics
 - Joins real-time station status with static station metadata
