@@ -18,7 +18,7 @@ An end-to-end real-time data pipeline that collects Dubai’s public bike sharin
 
 🧩 Pipeline Architecture
 
-![Architecture Diagram](diagrams/project_diagramm.png)
+![Project Diagram](diagrams/project_diagramm.png)
 
 📡 Streaming Analytics
 - Joins real-time station status with static station metadata
@@ -39,27 +39,7 @@ Goal: Predict next-hour average utilization
 
 🗂️ Project Structure
 
-Spark_Project/
-├── streaming/
-│   └── hourly_analytics_stream.py
-├── ingest/
-│   ├── station_info.py
-│   ├── station_status.py
-│   └── weather.py
-├── producers/
-│   ├── producer_info.py
-│   ├── producer_status.py
-│   └── weather_producer.py
-├── notebooks/
-│   └── random_forest.ipynb
-├── utils/
-│   └── http_client.py
-├── diagrams/
-│   └── architecture.png
-├── csv/usage_summary.csv                  
-├── env/.env
-├── requirements.txt
-└── README.md
+![Project Structure](diagrams/project_structure.png)
 
 ▶️ How to Run
 1. Start Kafka (two terminals)
